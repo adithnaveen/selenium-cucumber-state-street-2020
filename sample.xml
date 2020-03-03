@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<employees>
+	<emp>
+		<empname>Vivek</empname>
+		<address>
+			<hno>123</hno>
+			<city>bengaluru</city>
+			<state>Karnataka</state>
+		</address>
+	</emp>
+	
+	<emp>
+		<empname>Valentine</empname>
+		<address>
+			<hno>222</hno>
+			<city>Delhi</city>
+			<state>Delhi</state>
+		</address>
+	</emp>	
+</employees>

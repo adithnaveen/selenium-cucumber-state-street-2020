@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39" started-at="2020-03-01T16:44:39 IST" finished-at="2020-03-01T16:44:39 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39" started-at="2020-03-01T16:44:39 IST" finished-at="2020-03-01T16:44:39 IST">
+      <class name="com.statestreet.day2.NewTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.statestreet.day2.NewTest@5abca1e0]" name="f" duration-ms="9" started-at="2020-03-01T16:44:39 IST" finished-at="2020-03-01T16:44:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f1()[pri:1, instance:com.statestreet.day2.NewTest@5abca1e0]" name="f1" duration-ms="1" started-at="2020-03-01T16:44:39 IST" finished-at="2020-03-01T16:44:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="f2()[pri:2, instance:com.statestreet.day2.NewTest@5abca1e0]" name="f2" duration-ms="1" started-at="2020-03-01T16:44:39 IST" finished-at="2020-03-01T16:44:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+      </class> <!-- com.statestreet.day2.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

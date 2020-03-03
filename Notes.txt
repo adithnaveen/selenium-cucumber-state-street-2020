@@ -1,0 +1,277 @@
+https://github.com/adithnaveen
+
+
+class Driver {
+	test(); 
+}
+class ChromeDriver implements Driver  {
+	// google 
+	test(){}
+}
+
+class IEDriver  implements Driver  {{
+	IE 
+	test(){}
+}
+
+class FireFoxDriver implements Driver  { {
+	Mozilla 
+	test(){}
+}
+
+Driver cd = new ChromeDriver(); 
+cd.test();
+
+
+cd = new IEDriver(); 
+cd.ieTest() 
+
+ cd = new FireFoxDriver(); 
+ cd.myTest(); 
+ 
+<html>
+
+<head>
+</head>
+<body>
+	<div></div>
+	<div></div>
+	<div>
+		<input type="button" value="Login">
+	</div>		
+</body>
+</html> 
+ 
+ 
+ select * from emp; 
+ 
+ 
+ 
+ //
+ /
+ /employees/emp/address
+  /employees/emp/address[2]/state
+ 
+ 
+ 
+ 
+
+ http://tasyah.com/
+ https://www.expedia.com/
+ https://www.amazon.in/
+ http://naveenks.com/selenium/RegForm.html
+ 
+ 
+ https://bit.ly/2vq2Sjv
+ http://html.com/attributes/select-multiple/
+ 
+ 
+ 
+ 
+ 
+ //*[@id="header-navbar"]/ul[2]/li[2]/a -> Free 30 Day Trial Btn - xpath 
+ Form_submitForm_subdomain -> subdomin - id 
+ Form_submitForm_FirstName -> firstname - id
+ Form_submitForm_LastName -> last name - id 
+ Form_submitForm_Email -> email -id 
+ Form_submitForm_JobTitle -> job title - id 
+ 
+ 
+ 
+ 
+ window.scrollTo(500, 0);
+ 
+ industry drop down - id - Form_submitForm_Industry
+ 
+ 
+ 
+ 
+ //*[@id="Form_submitForm_FirstName"]
+ 
+ /html/body/div[4]/div/div/div[2]/form/fieldset/div[3]/div/input
+ 
+ 
+ 
+ 
+ amazon.in 
+ 
+//*[@id="nav-link-accountList"]/span[2] -> accounts & lists - xpath 
+//*[@id="nav-al-your-account"]/a[6]/span -> prime video - xpath  
+//*[@id="a9aff880-a0b6-4dcd-b4c1-4d8a6b46efeb"]/div/div[2]/div[2]/a[1]/span[2] - 30 day trial - xpath
+
+ 
+ 
+ 
+ 
+Capture Screen shot 
+have test ng 
+POM 
+extent report  (??)
+jdbc 
+excel (POI) . xlsx 
+frame handling
+mvn test  
+
+ 
+ 
+ 
+"http://dl.bintray.com/testng-team/testng-eclipse-release/"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+class MyTest{
+
+	public void setU(){
+		driver = driverfactory.getDriver("chrome"); 
+		
+		ScrShot sc = new ScrShot(driver); 
+		
+	}
+}
+	 
+ 
+ 
+ 
+ 
+ packageListFrame
+ 
+ 
+ packageFrame
+ 
+ 
+ classFrame
+ 
+ 
+ 
+ --------------------------------------------------------------------
+ 
+ working with frames 
+ 	@Test
+ 	public void test()  throws InterruptedException{
+		
+ 		String applet_xpath="/html/body/div[2]/ul/li[1]/a"; 
+		
+ 		String applectContext_xpath="/html/body/div/ul[1]/li[1]/a"; 
+		
+ 		Thread.sleep(4000);
+ 		// will not work 
+ //		driver.switchTo().frame("packageListFrame");
+		
+ 		//work 
+ 		driver.switchTo().parentFrame().switchTo().frame("packageListFrame"); 
+ //		driver.findElement(By.xpath(applet_xpath)).click();
+		
+ 		waitTypes.waitForElementToBeClickableReady(By.xpath(applet_xpath), 10).click(); 
+ 		// will not work 
+ //		driver.switchTo().frame("packageFrame");
+		
+ 		// work 
+ 		driver.switchTo().parentFrame().switchTo().frame("packageFrame"); 
+ //		driver.findElement(By.xpath(applectContext_xpath)).click();
+ 		waitTypes.waitForElementToBeClickableReady(By.xpath(applectContext_xpath), 10).click();
+		
+ 	}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ class Employee{
+ 	private int empId; 
+	private String empName; 
+	private dobule empSal; 
+	private Address address; 
+	// 
+ }
+ 
+ class Address {
+ 	private int hNo; 
+	private String street; 
+	private Stiing city; 
+	private String state; 
+ }
+ 
+ 
+ 
+ 
+ emp.address.street
+ 
+ 
+ 
+ 
+ 
+ 
+ class EmployeeBL{
+ 	public void display(Employee emp){
+		System.out.println("EmpId " + emp.empId); 
+		system.out.println("EmpNaem "  emp.empname);
+		System.out.println("emp Sal " + emp.empsal )
+	}
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ //*[@id="flight-departing-wrapper-hp-flight"]/div/div/div[2]/table/tbody/tr/td
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+create table fligtdata(
+	flyfrom varchar(100), 
+	flyto varchar(100)); 
+	
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
