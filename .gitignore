@@ -6,4 +6,7 @@
 /workspace/selenium-works/bin
 ./workspace/selenium-works-maven/target
 ./workspace/selenium-works/test-output 
+./workspace/cucumber-seelnium-works/bin
+./workspace/cucumber-seelnium-works/target
+
 

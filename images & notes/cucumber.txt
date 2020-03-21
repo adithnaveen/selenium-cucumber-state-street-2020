@@ -1,0 +1,172 @@
+3 days 
+
+2 days - selenium 
+	Action classes - hover, double click, drag-n-drop 
+	screen shot - 
+	Framework - POM 
+		1. Dev style 
+		2. Selenium style 
+	expedia 
+	working with frames https://docs.oracle.com/javase/7/docs/api/
+
+1 day - 
+	today 4 hrs 
+		BDD Cucumber 
+		API - Application Program Interface 
+		Water Fall model - 
+			Analysis (stake holder + function person)
+			Design 
+			Implement (stake holder + function person)
+			Test 
+			
+		Agile 
+			
+			Cucumber - Behavior-Driven Development
+				- Wrapper 
+			Gherkin - small cucumber 
+				Ruby (JVM) - Java - Platform Independent 
+			
+			English like words 
+			---------------------
+			Given - Pre-Condition 
+			When - Actual 
+			Then - Post-Condition 
+			
+			And 
+			But 
+			
+			
+			Scenario:
+			 
+			Given the transport is available 
+			When the office is open 
+			Then we work from office 
+			
+			you can also have multiple 
+			
+			
+			
+			Scenario: work from home when office not working 
+				Given the public transport is not availabe
+				And the office is not opened 
+				When work from home option is allowed 
+				Then the work is done 
+				But need to fill time sheet 
+			
+			multiple scenario (done)
+			regex (done)
+			tags(done)
+			hooks 
+			backgroud 
+			scenario outline (done)
+			data table (done)
+			diff types of report : html / json (done)
+			integration with TestNG (done)
+			
+			
+			login.feature 
+			
+			Scenario: 
+				Given the application is running 
+				When the username and password is enterd
+					
+					| username  |password|  
+					| mahesh   |hello12$34 |
+					|arun     |secret3344&|
+					|arpita 	|8765testing$| 
+				
+				Then take user to home screen 
+			
+			
+			Day 2 
+			
+			integration with TestNG 
+			TestRunner (junit/TestNG)
+			
+			
+			https://repo1.maven.org/maven2/com/beust/jcommander/1.48/jcommander-1.48.jar
+			https://repo1.maven.org/maven2/org/testng/testng/6.9.10/testng-6.9.10.jar
+			
+			
+			
+			
+			scenario outline 
+			Examples 
+			
+			
+			
+			
+			
+			
+			
+			Scenario Outline: sanctioning loan for startup
+			    Given the company is registered in "<year>" act
+			    And in india
+			      | state     | city       |
+			      | karnataka | bengaluru  |
+			      | karnataka | davanagere |
+			    When the company is formed with atleast "<noofyears>" years
+			    Then "<processingstatus>" to issuing authority
+
+			    Examples: 
+			      | year | noofyears | processingstatus |
+			      | 2011 |         3 | process          |
+			      | 2011 |         4 | process          |
+			      | 2011 |         5 | process          |
+			      | 2011 |         1 | nottoprocess     |
+			      | 1956 |         3 | process          |
+			
+			
+			
+			
+			Scenario: sanctioning loan for startup
+			    Given the company is registered in 2011 act
+			    And in india
+			      | state     | city       |
+			      | karnataka | bengaluru  |
+			      | karnataka | davanagere |
+			    When the company is formed with atleast 3 years
+			    Then process  to issuing authority
+			
+			Scenario: sanctioning loan for startup
+			    Given the company is registered in 2011 act
+			    And in india
+			      | state     | city       |
+			      | karnataka | bengaluru  |
+			      | karnataka | davanagere |
+			    When the company is formed with atleast 4 years
+			    Then process to issuing authority
+			 
+			hooks - beocome global, applies to all the features which are in use 
+			backgroud - are local to feature file and global to all scenarios in it 
+			common activity 
+			
+			cucumber + selenium 
+			CI/CD 
+						
+			
+			
+	tomorrow 4 hrs 
+		BDD Cucumber 
+			+ integration with selenium 
+			
+			
+			
+			jar cvfm MyJarName.jar manifest.txt *.class
+			
+			Main-Class: Craps
+			
+			
+			mvn install 
+			
+			change jenkins worklocation from c:\ 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

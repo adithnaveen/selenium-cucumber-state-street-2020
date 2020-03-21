@@ -13,9 +13,11 @@
 	<classpathentry kind="lib" path="/Volumes/Kanchan/MyTrainings/selenium-cucumber-state-street-2020/Cucumber Jars/cucumber-reporting-0.1.8.jar"/>
 	<classpathentry kind="lib" path="/Volumes/Kanchan/MyTrainings/selenium-cucumber-state-street-2020/Cucumber Jars/cucumber-testng-1.2.4.jar"/>
 	<classpathentry kind="lib" path="/Volumes/Kanchan/MyTrainings/selenium-cucumber-state-street-2020/Cucumber Jars/gherkin-2.12.2.jar"/>
-	<classpathentry kind="lib" path="/Volumes/Kanchan/MyTrainings/selenium-cucumber-state-street-2020/Cucumber Jars/mockito-all-1.9.1-20110911.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="/Volumes/Kanchan/MyTrainings/selenium-cucumber-state-street-2020/Cucumber Jars/testng-6.14.3.jar"/>
 	<classpathentry kind="lib" path="/Volumes/Kanchan/MyTrainings/selenium-cucumber-state-street-2020/Cucumber Jars/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Kanchan/MyTrainings/selenium-cucumber-state-street-2020/Cucumber Jars/mockito-all-1.9.1-20110911.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Kanchan/MyTrainings/selenium-cucumber-state-street-2020/selenium-jars/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Kanchan/MyTrainings/selenium-cucumber-state-street-2020/selenium-jars/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Kanchan/Training Material/jars/mysql-connector-java-8.0.15.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

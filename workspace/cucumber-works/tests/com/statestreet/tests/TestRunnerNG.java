@@ -1,21 +1,19 @@
 package com.statestreet.tests;
 
-import org.junit.runner.RunWith;
+import org.testng.annotations.Test;
 
 import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
 
-@RunWith(Cucumber.class)
 @CucumberOptions(
 		features = {"resources/com/statestreet/features"}, 
 		glue = {"com.statestreet.step"}, 
 		plugin = {"pretty", "html:target/cucumber-html-report", 
 					"json:target/cucumber-json-report"} , 
 		monochrome = true, 
-		tags = {"@loansanction,@workfromhome"}
+		tags = {"@login"}
 	)
-public class TestRunner {
-	// this class is only used 
-	// as place holder 
-	// NO BUSINESS LOGIC 
+@Test
+public class TestRunnerNG extends AbstractTestNGCucumberTests {
+
 }

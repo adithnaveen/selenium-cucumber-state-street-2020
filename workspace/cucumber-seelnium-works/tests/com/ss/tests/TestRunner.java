@@ -1,4 +1,4 @@
-package com.statestreet.tests;
+package com.ss.tests;
 
 import org.junit.runner.RunWith;
 
@@ -8,11 +8,11 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = {"resources/com/statestreet/features"}, 
-		glue = {"com.statestreet.step"}, 
+		glue = {"com.ss.cucumber.step"}, 
 		plugin = {"pretty", "html:target/cucumber-html-report", 
 					"json:target/cucumber-json-report"} , 
 		monochrome = true, 
-		tags = {"@loansanction,@workfromhome"}
+		tags = {"@login"}
 	)
 public class TestRunner {
 	// this class is only used 
